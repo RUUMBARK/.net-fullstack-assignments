@@ -4,6 +4,8 @@ using System.Text;
 
 namespace OOPsAssignment3
 {
+    
+    [Serializable] 
     class Manager : Employee,IPrintable
     {
         int empno;
