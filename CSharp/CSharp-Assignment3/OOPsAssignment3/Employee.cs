@@ -8,7 +8,8 @@ namespace OOPsAssignment3
     interface IPrintable
     {
         void info();
-    }
+  
+    [Serializable]   
     class Employee:IPrintable
     {
         int empno;
